@@ -5,25 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
-    <header>
-        <div id="selam-logo">Selam</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="navbar">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <i class="fas fa-bars menu-icon"></i>
+        <div class="logo">Sel<span class="am">am</span></div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
     </header>
-    <div>
-        <h1>Learning Journey</h1>
-        <p>Explore my learning journey as I dive into various front-end technologies like HTML, CSS, Bootstrap, and
+    <div class="blog-head">
+        <h1>Blog</h1>
+        <h2>Learning Journey</h2>
+        <p class="pblog">Explore my learning journey as I dive into various front-end technologies like HTML, CSS,
+            Bootstrap, and
             JavaScript.</p>
     </div>
     <div class="card-container">
@@ -66,6 +69,7 @@
                 applications.</p>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

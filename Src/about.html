@@ -5,75 +5,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
-    <header>
-        <div id="selam-logo">Selam</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="navbar">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <i class="fas fa-bars menu-icon"></i>
+        <div class="logo">Sel<span class="am">am</span></div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </header>
+
     <section>
-        <div>
-            <h1>About Me</h1>
+        <div class="section-container">
+            <h1 class="about-header">About <span class="me">me</span></h1>
         </div>
-        <div>
-            <h2>Education</h2>
-            <p>I’m studying software engineering at Addis Ababa University, building a strong technical foundation. I
+
+        <h2 class="sub-header">Education</h2>
+        <div class="section-container">
+            <p>
+                I’m studying software engineering at Addis Ababa University, building a strong technical foundation. I
                 enhance my skills through W3Schools, FreeCodeCamp, and IBM Skill Build, while connecting with fellow
-                tech
-                enthusiasts at Google Developer Groups (GDG) through workshops.</p>
+                tech enthusiasts at Google Developer Groups (GDG) through workshops.
+            </p>
             <figure>
                 <img src="Images/edu-image.jpg" alt="A picture of online education">
-                <figcaption>
-                    Empowering learning through the flexibility and accessibility of online education.
+                <figcaption>Empowering learning through the flexibility and accessibility of online education.
                 </figcaption>
             </figure>
         </div>
-        <div>
-            <h2>Hobbie</h2>
-            <p>I express my creativity through painting and drawing, exploring techniques in watercolor, acrylic, and
+
+        <h2 class="sub-header">Hobbies</h2>
+        <div class="section-container">
+            <p>
+                I express my creativity through painting and drawing, exploring techniques in watercolor, acrylic, and
                 charcoal. Additionally, I stay active and promote well-being by engaging in physical activities like
-                yoga, running, and cycling, maintaining a balanced and healthy lifestyle.</p>
+                yoga, running, and cycling, maintaining a balanced and healthy lifestyle.
+            </p>
             <figure>
                 <video width="600" height="300" controls>
-                    <source src="video.mp4" type="video/mp4">
+                    <source src="./assets/sportvid.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <figcaption>working and learning in this kind of enviroment is great.</figcaption>
+                <figcaption>I love doing this kind of exercises daily .</figcaption>
             </figure>
-
         </div>
-        <div>
-            <h2>Interest</h2>
-            <p>I’m passionate about staying on top of the latest tech trends, exploring everything from the newest
+
+        <h2 class="sub-header">Interests</h2>
+        <div class="section-container">
+            <p>
+                I’m passionate about staying on top of the latest tech trends, exploring everything from the newest
                 gadgets to groundbreaking apps and software. Equally important to me is giving back through
-                volunteering, where I dedicate my time to causes that make a real difference in the community.</p>
-            <div>
+                volunteering, where I dedicate my time to causes that make a real difference in the community.
+            </p>
+            <figure>
                 <audio controls>
-                    <source src="audio.mp3" type="audio/mp3">
+                    <source src="./assets/voice (online-audio-converter.com).mp3" type="audio/mp3">
                     Your browser does not support the audio element.
                 </audio>
-            </div>
-        </div>
-        <div>
-            <h2>Adventure</h2>
-            <p>I venture through Ethiopia's lively cities, uncovering their hidden stories and vibrant culture. Each
-                exploration inspires my creativity and gives me a new lens to see the world.</p>
-            <figure>
-                <img src="Images/adv-image.jpg" alt="Adventurest place in Ethiopia">
-                <figcaption>The most Intersesting place I want to go.</figcaption>
+                <figcaption>My inspiration comes from every sound I hear in nature.</figcaption>
             </figure>
+        </div>
 
+        <h2 class="sub-header">Adventure</h2>
+        <div class="section-container">
+            <p>
+                I venture through Ethiopia's lively cities, uncovering their hidden stories and vibrant culture. Each
+                exploration inspires my creativity and gives me a new lens to see the world.
+            </p>
+            <figure>
+                <img src="Images/adv-image.jpg" alt="Adventurous places in Ethiopia">
+                <figcaption>The most interesting place I want to go.</figcaption>
+            </figure>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
